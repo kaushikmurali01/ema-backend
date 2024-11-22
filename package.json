@@ -1,15 +1,21 @@
 {
-    "name": "my-server",
-    "version": "1.0.0",
-    "description": "A simple server using Express",
-    "main": "server.js",
-    "scripts": {
-        "start": "node server.js"
-    },
-    "dependencies": {
-        "express": "^4.18.2"
-    },
-    "engines": {
-        "node": "16.x"
-    }
+  "name": "mongodb-express-server",
+  "version": "1.0.0",
+  "description": "A server using Express.js with MongoDB integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.1"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC"
 }
